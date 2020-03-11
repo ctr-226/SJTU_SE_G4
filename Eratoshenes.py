@@ -15,9 +15,7 @@ def Eratoshenes(N, primes):
             primes.append(i)
         return
 
-
 primes = []
 N = int(input("Please put in a number."))
 Eratoshenes(N, primes)
-
 print(primes)
