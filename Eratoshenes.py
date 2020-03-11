@@ -9,12 +9,11 @@ def Eratoshenes(N, primes):
         for num in N_list:
             if num not in primes:
                 primes.append(num)
-
     elif N**0.5 < 2:
         for i in range(2, int(N) + 1):
             primes.append(i)
         return
-
+# this is a git practice
 primes = []
 N = int(input("Please put in a number."))
 Eratoshenes(N, primes)
