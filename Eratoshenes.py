@@ -19,3 +19,4 @@ N = int(input("Please put in a number."))
 Eratoshenes(N, primes)
 print(primes)
 # changes happen 1
+# github test
